@@ -11,7 +11,7 @@ module.exports = async (req, res) => {
   }
 
   try {
-    const response = await axios.get(`https://api.nexray.eu.cc/ai/gemini?text=kamu adalah kevai,ai buatan kevcodex${encodeURIComponent(text)}`);
+    const response = await axios.get(`https://api.nexray.eu.cc/ai/gemini?text=${encodeURIComponent(text)}`);
     const data = response.data;
 
     const modifiedData = {
