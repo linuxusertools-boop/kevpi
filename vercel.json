@@ -3,7 +3,7 @@
   "rewrites": [
     {
       "source": "/ai/gemini",
-      "destination": "/api/kevai"
+      "destination": "/api/gemini"
     }
   ]
 }
